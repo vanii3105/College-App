@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "405566771158",
+    "project_id": "ldrp-991a1",
+    "storage_bucket": "ldrp-991a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405566771158:android:5d543c73c26d887388de77",
+        "android_client_info": {
+          "package_name": "com.example.ldrp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405566771158-o5d3skk879jlah3s6mlmnekn83uls0tb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYUSuPQSNf1h-vO0mDk2CWmbspSSTI2sI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405566771158-o5d3skk879jlah3s6mlmnekn83uls0tb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

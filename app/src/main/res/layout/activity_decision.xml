@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/_20sdp"
+    tools:context=".Decision_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/ic_baseline_navigate_before_24"
+                app:tint="@color/light_blue" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/whoami"
+                android:layout_width="@dimen/_175sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/whoami"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_30ssp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/driver"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                app:srcCompat="@drawable/ic_baseline_person_24" />
+
+            <Button
+                android:id="@+id/driverbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Driver"
+                android:textSize="@dimen/_20ssp"
+                app:cornerRadius="10dp" />
+
+            <ImageView
+                android:id="@+id/rider"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                app:srcCompat="@drawable/ic_baseline_person_24" />
+
+            <Button
+                android:id="@+id/riderbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Rider"
+                android:textSize="@dimen/_20ssp"
+                app:cornerRadius="@dimen/_10sdp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

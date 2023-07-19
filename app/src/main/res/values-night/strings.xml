@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">Home</string>
+    <string name="todo1">TODO</string>
+    <string name="todo12">TODO</string>
+    <string name="ldrp_itr_2">LDRP ITR-2</string>
+    <string name="qualification">Qualification</string>
+    <string name="designation">Designation</string>
+    <string name="experience">Experience</string>
+    <string name="enter_email1">Enter Email</string>
+    <string name="department">Department</string>
+</resources>
